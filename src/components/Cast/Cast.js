@@ -15,7 +15,6 @@ import {
 
 export default function Cast() {
   const { movieId } = useParams();
-  const location = useLocation();
   const [cast, setCast] = useState([]);
 
   useEffect(() => {
